@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(img/板チョコ.jpg);
+    font-family: 'Emilys Candy', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-left: 200px;
+    
+}
+
+#relogio {
+    font-size: 2em;
+    margin: center;
+}
+
+  .willyWonka {
+    width: 400px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    padding: 0.5em;
+    margin: 0.2em;
+    border-radius: 4px;
+    background-color: #300f00;
+    color: #fff;
+    display: inline-block;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tickets img {
+    width: 550px; 
+    height: auto;
+    margin-bottom: 10px; 
+    position: relative;
+}
+
+.barra {
+    width: 60%;
+    margin: 20px auto;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progresso {
+    height: 100%;
+    width: 0;
+    background-color: #6a0c05;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
